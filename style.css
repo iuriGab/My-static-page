@@ -1,0 +1,44 @@
+body {
+    background: #838383;
+    color: #ffff;
+}
+
+#fotoPerfil {
+    width: 250px; 
+    height: 250px;
+    display: block; 
+    margin-left: auto; margin-right: auto; 
+    margin-top: 50px; margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 35px;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.whiteBack {
+    background: #ffffff;
+}
+
+h2 {
+    padding: 20px;
+    text-align: center;
+    color: #777777;
+}
+
+ul {
+    color: #555555;
+}
+
+.size20 {
+    font-size: 20px
+}
+
+#imgQualities {
+    width: 450px; 
+    height: 250px;
+}
