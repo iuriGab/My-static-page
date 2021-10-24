@@ -11,6 +11,10 @@ body {
     margin-top: 50px; margin-bottom: 40px;
 }
 
+.paddingDefault {
+    padding: 20px;
+}
+
 h1 {
     font-size: 35px;
     text-align: center;
@@ -22,16 +26,24 @@ p {
 
 .whiteBack {
     background: #ffffff;
+    padding: 40px;
 }
 
 h2 {
-    padding: 20px;
     text-align: center;
     color: #777777;
+    font-size: 30px;
+}
+
+.withoutMarginStart {
+    margin-block-start: 0em;
 }
 
 ul {
     color: #555555;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30%;
 }
 
 .size20 {
@@ -39,6 +51,5 @@ ul {
 }
 
 #imgQualities {
-    width: 450px; 
-    height: 250px;
+    width: 50%;
 }
