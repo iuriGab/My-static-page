@@ -8,7 +8,7 @@ body {
     height: 250px;
     display: block; 
     margin-left: auto; margin-right: auto; 
-    margin-top: 50px; margin-bottom: 40px;
+    margin-top: 50px; margin-bottom: 0px;
 }
 
 .paddingDefault {
@@ -26,28 +26,29 @@ p {
 
 .whiteBack {
     background: #ffffff;
-    padding: 40px;
+    padding: 0 40px;
 }
 
 h2 {
     text-align: center;
     color: #777777;
     font-size: 30px;
-}
-
-.withoutMarginStart {
-    margin-block-start: 0em;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 20px;
+    padding-bottom: 30px;
 }
 
 ul {
     color: #555555;
     display: inline-block;
     vertical-align: top;
-    margin-right: 10%;
+    margin-right: 15%;
+    margin-left: 3.3%;
 }
 
 li {
-    margin-bottom: 25px;
+    margin-bottom: 37px;
 }
 
 .styleLists {
@@ -59,8 +60,9 @@ li {
 }
 
 #imgQualities {
-    display: inline;
+    display: inline-block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
+    padding-bottom: 30px;
 }

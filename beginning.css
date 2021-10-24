@@ -1,0 +1,53 @@
+.header {
+    background: #838383;
+    padding: 50px;
+}
+
+#imagePerfil {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+.textBeginning {
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.absoluteposition {
+    position: absolute;
+    top: 60px;
+}
+
+nav li {
+    display: inline;
+    padding: 15px;
+}
+
+nav a {
+    color: #838383;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul {
+    text-align: center;
+}
+
+.imgMidias {
+    width: 3%;
+    height: 3%;
+}
