@@ -43,6 +43,11 @@ nav a {
     text-decoration: none;
 }
 
+nav a:hover {
+    color: #ecab30;
+    font-size: 170%;
+}
+
 ul {
     text-align: center;
 }
