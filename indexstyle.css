@@ -13,6 +13,7 @@
 }
 
 .textBeginning {
+    padding-top: 10px;
     color: white;
     font-size: 35px;
     font-weight: bold;
@@ -48,6 +49,10 @@ nav a:hover {
     font-size: 170%;
 }
 
+nav a:active {
+    color: #99d71c;
+}
+
 ul {
     text-align: center;
 }
@@ -55,4 +60,8 @@ ul {
 .imgMidias {
     width: 3%;
     height: 3%;
+}
+
+.imgMidias:hover {
+    filter: opacity(50%);
 }
