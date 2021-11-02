@@ -12,7 +12,7 @@
     
     <body>
         <header class="header">
-            <h1><img id="imagePerfil" src="imgs/Perfil Insta6.png"></h1>
+            <h1><img id="imagePerfil" src="imgs/Perfil Insta6.png" alt="Photo Profile"></h1>
             <p class="textBeginning">Contact Me</p>
         </header>
 
@@ -23,24 +23,24 @@
         <main>
             <form>
                     <P>How did you know me?</P>
-                    <div class="options">
-                        <label class="pad" for="radio-linkedin"><input type="radio" name="howKnow" id="radio-linkedin">LinkedIn</label>
+                    <fieldset class="options">
+                        <label class="pad" for="radio-linkedin"><input type="radio" name="howKnow" id="radio-linkedin" required>LinkedIn</label>
 
                         <label class="pad" for="radio-github"><input type="radio" name="howKnow" id="radio-github">Github</label>
 
                         <label class="pad" for="radio-someone"><input type="radio" name="howKnow" id="radio-someone">Someone</label>
-                    </div>
+                    </fieldset>
                 <label for="fullname">Name</label>
-                <input type="text" id="fullname" class="input">
+                <input type="text" id="fullname" class="input" required>
 
                 <label for="email">E-mail</label>
-                <input type="text" id="email" class="input">
+                <input type="email" id="email" class="input" required placeholder="youremail@example.com">
 
                 <label for="about">About</label>
-                <input type="text" id="about" class="input">
+                <input type="text" id="about" class="input" required placeholder="Subject">
 
                 <label for="description">Description</label>
-                <textarea id="descriptionspace" cols="50" rows="7" id="description"></textarea>
+                <textarea id="descriptionspace" cols="50" rows="7" id="description" required></textarea>
 
                 <input id="sendbutton" type="submit" value="Send" class="input">
             </form>

@@ -21,7 +21,7 @@ form label, P {
     font-size: 18px;
 }
 
-div label {
+fieldset label {
     font-size: 15px;
 }
 
@@ -44,4 +44,24 @@ main label {
 #sendbutton {
     margin-top: 15px;
     width: auto;
+    border-radius: 8px;
+    border-style:solid;
+    margin-bottom: 40px;
+    padding: 3px;
+    cursor: pointer;
+    transition: 0.5s background;
+    transition: 0.3s color;
+    transition: 0.3s border;
+}
+
+#sendbutton:hover {
+    background: #ecab30;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+#sendbutton:active {
+    background: rgb(181, 255, 44);
+    color: #ffffff;
+    border-color: #ffffff;
 }
