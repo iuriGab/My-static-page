@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Me - Iuri Gabriel</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="indexstyle.css">
+        <link rel="stylesheet" href="contact.css">
+    </head>
+    
+    <body>
+        <header class="header">
+            <h1><img id="imagePerfil" src="imgs/Perfil Insta6.png"></h1>
+            <p class="textBeginning">Contact Me</p>
+        </header>
+
+        <footer>
+            <p class="copyright">&copy; copyright Iuri Gabriel - 2021</p>
+        </footer>
+        
+        <main>
+            <form>
+                    <label>How you know me?</label>
+                    <div class="options">
+                        <label class="padtop0" for="radio-linkedin">LinkedIn</label>
+                        <input type="radio" name="howKnow" id="radio-linkedin">
+
+                        <label for="radio-github">Github</label>
+                        <input type="radio" name="howKnow" id="radio-github">
+
+                        <label for="radio-someone">Someone</label>
+                        <input type="radio" name="howKnow" id="radio-someone">
+                    </div>
+                <label for="fullname">Name</label>
+                <input type="text" id="fullname">
+
+                <label for="email">E-mail</label>
+                <input type="text" id="email">
+
+                <label for="about">About</label>
+                <input type="text" id="about">
+
+                <label for="description">Description</label>
+                <textarea id="descriptionspace" cols="50" rows="7" id="description"></textarea>
+
+                <input id="sendbutton" type="submit" value="Send">
+            </form>
+        </main>
+    </body>
+</html>
