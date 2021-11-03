@@ -49,9 +49,7 @@ main label {
     margin-bottom: 40px;
     padding: 3px;
     cursor: pointer;
-    transition: 0.5s background;
-    transition: 0.3s color;
-    transition: 0.3s border;
+    transition: 0.5s all;
 }
 
 #sendbutton:hover {
