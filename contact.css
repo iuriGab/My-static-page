@@ -4,6 +4,28 @@
     text-align: center;
 }
 
+.comeback {
+    position: absolute;
+    left: 25px;
+    border-radius: 8px;
+    border-style: solid;
+    padding: 3px;
+    cursor: pointer;
+    transition: 0.5s all;
+}
+
+.comeback:hover {
+    background: #ecab30;
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.comeback:active {
+    background: rgb(181, 255, 44);
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
 .options {
     display: inline-block;
 }
