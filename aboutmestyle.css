@@ -56,6 +56,10 @@ li {
     font-size: 25px;
 }
 
+.styleLists li:before {
+    content: "\25D7   ";
+}
+
 .subtitle {
     padding: 15px;
     font-size: 20px
@@ -66,8 +70,12 @@ li {
     margin-left: auto;
     margin-right: auto;
     width: 40%;
-    padding-bottom: 70px;
+    transition: 1s box-shadow;
 }
+
+#imgQualities:hover {
+    box-shadow: 40px 40px 10px #838383;
+} 
 
 .comeback {
     position: absolute;

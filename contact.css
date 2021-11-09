@@ -1,3 +1,7 @@
+.background {
+    background: linear-gradient(45deg ,#ffffff 50%, #808080);
+}
+
 .copyright {
     background: #838383;
     padding: 4px;

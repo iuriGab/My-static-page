@@ -3,6 +3,10 @@
     padding: 50px;
 }
 
+.background {
+    background: linear-gradient(#ffffff 60%, #808080 100%);
+}
+
 #imagePerfil {
     width: 200px;
     height: 200px;
@@ -19,10 +23,6 @@
     font-weight: bold;
     text-align: center;
     text-shadow: 2px 3.5px 3.5px #252525;
-}
-
-div {
-    background: white;
 }
 
 .box {
@@ -76,4 +76,25 @@ footer {
     background: #838383;
     padding: 4px;
     text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+    #imagePerfil, .box {
+        width: auto;
+    }
+
+    nav a {
+        font-size: 20px;
+    }
+
+    .spacinghome {
+        padding: 20px;
+    }
+
+    .imgMidias {
+        display: inline-block;
+        width: 7%;
+        height: 7%;
+        padding: 30px 15px;
+    }
 }
