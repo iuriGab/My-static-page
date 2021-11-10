@@ -3,10 +3,10 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
         <title>Contact Me - Iuri Gabriel</title>
 
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/indexstyle.css">
         <link rel="stylesheet" href="css/contact.css">
     </head>
     
@@ -20,17 +20,17 @@
             <p class="copyright">&copy; copyright Iuri Gabriel - 2021</p>
         </footer>
         
-        <main>
+        <main id="device">
             <a href="index.html"><input type="button" value="Come back" class="comeback"></a>
             <form>
-                    <P>How did you know me?</P>
-                    <fieldset class="options">
-                        <label class="pad" for="radio-linkedin"><input type="radio" name="howKnow" id="radio-linkedin" required>LinkedIn</label>
+                <P>How did you know me?</P>
+                <fieldset class="options">
+                    <label class="pad" for="radio-linkedin"><input type="radio" name="howKnow" id="radio-linkedin" required>LinkedIn</label>
 
-                        <label class="pad" for="radio-github"><input type="radio" name="howKnow" id="radio-github">Github</label>
+                    <label class="pad" for="radio-github"><input type="radio" name="howKnow" id="radio-github">Github</label>
 
-                        <label class="pad" for="radio-someone"><input type="radio" name="howKnow" id="radio-someone">Someone</label>
-                    </fieldset>
+                    <label class="pad" for="radio-someone"><input type="radio" name="howKnow" id="radio-someone">Someone</label>
+                </fieldset>
                 <label for="fullname">Name</label>
                 <input type="text" id="fullname" class="input" required>
 
@@ -41,7 +41,7 @@
                 <input type="text" id="about" class="input" required placeholder="Subject">
 
                 <label for="description">Description</label>
-                <textarea id="descriptionspace" cols="50" rows="7" id="description" required></textarea>
+                <textarea id="descriptionspace" cols="40" rows="7" id="description" required></textarea>
 
                 <input id="sendbutton" type="submit" value="Send" class="input">
             </form>

@@ -1,11 +1,35 @@
 .background {
-    background: linear-gradient(45deg ,#ffffff 50%, #808080);
+    background: linear-gradient(#ffffff 60%, #808080 100%);
+    margin-bottom: 41%;
+}
+
+.header {
+    background: url(bg_dev6.jpeg);
+    padding: 50px;
+}
+
+#imagePerfil {
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
 }
 
 .copyright {
     background: #838383;
     padding: 4px;
     text-align: center;
+}
+
+.textBeginning {
+    padding-top: 10px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 2px 3.5px 3.5px #252525;
 }
 
 .comeback {
@@ -39,7 +63,7 @@
 }
 
 main {
-    width: 940px;
+    width: 480px;
     margin: 20px auto;
     color: #3b3b3b;
 }
@@ -89,4 +113,32 @@ main label {
     background: rgb(181, 255, 44);
     color: #ffffff;
     border-color: #ffffff;
+}
+
+@media screen and (max-width: 375px) {
+    .background {
+        background: #ffffff;
+    }
+    
+    .copyright, #device, #imagePerfil, main {
+        width: auto;
+    }
+
+    main {
+        margin: 20px auto;
+        color: #3b3b3b;
+    }
+
+    label {
+        display: inline-block;
+        padding-top: 1px;
+    }
+
+    .comeback {
+        left: 75%;
+    }
+
+    .input {
+        width: 50%;
+    }
 }

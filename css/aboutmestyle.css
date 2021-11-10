@@ -98,3 +98,58 @@ li {
     color: #ffffff;
     border-color: #ffffff;
 }
+
+@media screen and (max-width: 480px) {
+    #fotoPerfil {
+        width: 150px; 
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .subtitle {
+        padding: 15px 0;
+        font-size: 17px;
+    }
+
+    ul {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    h2 {
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    li {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+
+    .styleLists li:before {
+        content: none;
+    }
+
+    .whiteBack {
+        padding: 0 0px;
+    }
+
+    #imgQualities {
+        display: block;
+        margin-top: 3em;
+        width: 100%;
+        transition: 1s box-shadow;
+    }
+
+    .size20 {
+        text-align: right;
+    }
+}
